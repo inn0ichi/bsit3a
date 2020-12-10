@@ -4,6 +4,9 @@ body {
     background-color: black;
 }
 
+
+/*header*/
+
 .header {
     background-color: #1b1b1b;
 }
@@ -32,6 +35,9 @@ body {
     margin-bottom: 5px;
 }
 
+
+/*section*/
+
 .section {
     display: flex;
     flex-direction: column;
@@ -47,6 +53,9 @@ body {
     display: inline;
     float: right;
 }
+
+
+/*cards*/
 
 .section-cards {
     margin-top: 25px;
