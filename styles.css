@@ -1,20 +1,31 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #ededed;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 /*header*/
 
 .header {
-    background-color: #1b1b1b;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    height: 85px;
+    margin: 0;
+    padding: 0;
+}
+
+.header h2 {
+    display: inline-block;
 }
 
 .logo2 {
-    width: 170px;
-    height: 60px;
-    margin-left: 290;
+    width: 82px;
+    height: 64px;
+    margin-left: 82px;
+    margin-top: 10;
+    display: inline-block;
 }
 
 .content {
@@ -31,12 +42,33 @@ body {
     height: 270px;
     width: 1080px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 5px;
 }
 
 
 /*section*/
+
+.search {
+    margin-left: 20px;
+    width: 240px;
+}
+
+.search input {
+    background-color: #fff;
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.search img {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-bottom: -8;
+}
 
 .section {
     display: flex;
@@ -44,22 +76,15 @@ body {
     width: 1080px;
     height: 700px;
     margin: auto;
+    margin-top: 25px;
     color: black;
-    border-style: solid;
-    border-width: 2px 2px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.section-header input[type=text] {
-    display: inline block;
-    float: right ;
-    width: 210px;
-    margin-right: 110px;
- 
-    border-color: gray;
-    padding: 8px 8px;
+.section h2 {
+    text-align: center;
 }
-
 
 
 /*cards*/
@@ -69,7 +94,6 @@ body {
     font-size: 20px;
     color: white;
     margin-bottom: 50px;
- 
 }
 
 .column {
@@ -82,6 +106,15 @@ body {
     margin: 0 -5px;
 }
 
+.text {
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: -15;
+    width: 331px;
+    height: 115.391;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 300px;
@@ -91,15 +124,19 @@ body {
     background-color: #f1f1f1;
     border-radius: 10px;
 }
-.section_A{
-    background-color:#FF7575;
+
+.section_A {
+    background-color: #FF7575;
 }
-.section_B{
-    background-color:#6A6AFF;
+
+.section_B {
+    background-color: #6A6AFF;
 }
-.section_C{
-    background-color:#27DE55;
+
+.section_C {
+    background-color: #27DE55;
 }
-.section_D{
-    background-color:#BF00BF;
+
+.section_D {
+    background-color: #BF00BF;
 }
