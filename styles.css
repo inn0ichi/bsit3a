@@ -20,6 +20,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4%;
 }
 
 .banner {
@@ -44,23 +45,28 @@ body {
     width: 1080px;
     height: 700px;
     margin: auto;
-    color: black;
-    border-style: solid;
+    color: white;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-style: solid black;
     border-width: 2px 2px;
-    background-color: white;
+    background-color: 1b1b1b;
 }
 
 .section-header input[type=text] {
     display: inline block;
-    float: right ;
+    float: right;
     width: 210px;
-    margin-right: 110px;
+    margin-right: 5%;
  
     border-color: gray;
     padding: 8px 8px;
 }
 
-
+h2 {
+    margin-top: 5%;
+    margin-left: 7%;
+}
 
 /*cards*/
 
@@ -91,15 +97,27 @@ body {
     background-color: #f1f1f1;
     border-radius: 10px;
 }
-.section_A{
+.section_A {
     background-color:#FF7575;
 }
-.section_B{
+.section_B {
     background-color:#6A6AFF;
 }
-.section_C{
+.section_C {
     background-color:#27DE55;
 }
-.section_D{
+.section_D {
     background-color:#BF00BF;
+}
+
+.section_D:hover, .section_C:hover, .section_B:hover, .section_A:hover {
+    font-size: 22px;
+    background-color: gray;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 1%;
 }
