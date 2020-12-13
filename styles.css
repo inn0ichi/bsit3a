@@ -35,6 +35,13 @@ h1 {
     margin-top: 10;
     display: inline-block;
 }
+.menu {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10;
+    float:right;
+}
 
 .content {
     display: flex;
@@ -63,11 +70,11 @@ h1 {
 
 .search input {
     background-color: #fff;
-    width: 180px;
+    width: 200px;
     height: 30px;
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .search-img {
@@ -75,7 +82,7 @@ h1 {
     height: 22px;
     margin-bottom: -8;
     position: absolute;
-    left: 576.5;
+    left: 600;
     width: 16px;
     height: 16px;
     bottom: -50;
@@ -139,6 +146,14 @@ h1 {
 
     margin-bottom: 24px;
 }
+.section_D:hover,
+.section_C:hover,
+.section_B:hover,
+.section_A:hover {
+    font-size: 22px;
+    background-color: gray;
+}
+
 
 
 /*cards*/
