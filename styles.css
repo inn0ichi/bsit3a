@@ -181,17 +181,22 @@ h1 {
 }
 
 .section_A {
-    background-color: #FF7575;
+    background-color: #799FCB;
 }
 
 .section_B {
-    background-color: #6A6AFF;
+    background-color: #FEC9C9;
 }
 
 .section_C {
-    background-color: #27DE55;
+    background-color: #D4EBD4;
 }
 
 .section_D {
-    background-color: #BF00BF;
+    background-color: #E0CAED;
+}
+.setting-icon{
+    height: 30px;
+    margin-left: 85%;
+    margin-top: -9%;
 }
