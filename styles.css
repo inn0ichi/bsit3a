@@ -11,6 +11,7 @@ body {
 .header {
     background-color: white;
     height: 85px;
+    width: 1903px;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -19,6 +20,7 @@ body {
 .header h2,
 h1 {
     display: inline-block;
+
 }
 
 .header h1 {
@@ -63,6 +65,7 @@ h1 {
     background-color: #fff;
     width: 180px;
     height: 30px;
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -78,16 +81,39 @@ h1 {
     bottom: -50;
 }
 
+.add-img{
+    height: 30px;
+    width: 30px;
+}
+
 .search-filter {
     width: 22px;
     height: 22px;
-    margin-bottom: -8;
+    left: 425px;
     position: absolute;
-    right: 450px;
-    width: 24px;
-    height: 24px;
-    bottom: -50;
+    
 }
+
+.fil p{
+    margin-left: 100px;
+}
+.fil{
+    margin-left: 100px;
+    text-decoration: none;
+
+}
+
+.add_button{
+    position: absolute;
+    bottom: -60;
+    left: 1325px;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+}
+
 
 .section {
     display: flex;
@@ -103,11 +129,14 @@ h1 {
 
 .section h2 {
     text-align: center;
-    margin-bottom: 80;
+    margin-bottom: 26;
+    font-size: 50px;
+    
 }
 
 .section-header {
     padding-top: 50px;
+
     margin-bottom: 24px;
 }
 
