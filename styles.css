@@ -75,11 +75,11 @@ h1 {
 
 .search input {
     background-color: #fff;
-    width: 200px;
-    height: 30px;
+    width: 220px;
+    height: 40px;
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .search-img {
@@ -87,11 +87,11 @@ h1 {
     height: 22px;
     margin-bottom: -8;
     position: absolute;
-    left: 600;
-    width: 16px;
-    height: 16px;
+    left: 620;
+    width: 18px;
+    height: 18px;
     bottom: -50;
-    top: 455px;
+    top: 460px;
 }
 
 .add-img {
@@ -127,6 +127,7 @@ h1 {
     padding: 10px 32px;
     height: 46px;
     bottom: -61;
+    font-size: 16px;
 }
 
 .section {
@@ -190,7 +191,7 @@ h1 {
     height: 115.391;
 }
 .text p{
-    font-size: 20px;
+    font-size:20px;
 }
 
 .text h3 {
