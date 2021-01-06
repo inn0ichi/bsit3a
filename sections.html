@@ -23,11 +23,28 @@
 
                     </div>
                     <div>
-                        <button class="add_button">
-                    		<i class="fa fa-plus-circle" aria-hidden="true"></i>
-                    		Add Section
-                    	</button>
+                        <button id="add_section">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            Add Section
+                        </button>
+                        <div id="myModal" class="modal">
 
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <h2>Section Details</h2>
+                                </div>
+                                <div class="section-details">
+                                    <p>Year<br> <input type="text"></p>
+                                    <p>Section<br> <input type="text"></p>
+                                    <p>Advisor's Name<br> <input type="text"></p>
+                                    <button class="create-button">Create</button><br><br>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <div class="section-cards">
@@ -101,7 +118,6 @@
             Academic Year 2020-2021
         </div>
     </div>
-
 
     <script src="script.js"></script>
 </body>
