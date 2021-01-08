@@ -1,4 +1,3 @@
-
     var modal = document.getElementById("myModal");
     var btn = document.getElementById("add_section");
     var span = document.getElementsByClassName("close")[0];
@@ -32,4 +31,3 @@
         }
     
     }
-
