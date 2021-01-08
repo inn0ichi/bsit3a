@@ -21,7 +21,7 @@
     function search() {
         var input = document.getElementById("Search");
         var filter = input.value.toLowerCase();
-        var nodes = document.getElementsByClassName('column');
+        var nodes = document.getElementsByClassName("sect0");
     
         for (i = 0; i < nodes.length; i++) {
             if (nodes[i].innerText.toLowerCase().includes(filter)) {
@@ -58,6 +58,7 @@ function add(){
 		let divv1 = document.createElement("div");
 		divv1.setAttribute("class" , "sect"+[x]);
 
+
 		const add_div1 = document.querySelector(".sect0")
 		add_div1.appendChild(divv1);
 		}
@@ -78,6 +79,10 @@ function add(){
 		add_div3.appendChild(divv3);
 		}
 
+	var dot = document.createElement("img");
+ 	dot.setAttribute("src", "setting1.svg");
+ 	dot.setAttribute("class", "setting-icon");
+
 	let p2 = document.createElement("p");
 	let p3 = document.createElement("h3");
 
@@ -87,9 +92,11 @@ function add(){
 
 	const p22 = document.querySelector(".sect"+[x]);
 	const p33 = document.querySelector(".sect"+[x]);
+	const dott = document.querySelector(".sect"+[x]);
+
 	p22.appendChild(p2);	
 	p33.appendChild(p3);		
-
+	dott.appendChild(dot);
 }
 
 /*
@@ -143,15 +150,22 @@ for (var i = 0; i < section_year.length; i++) {
 		}
 	}
 
+	var dot = document.createElement("img");
+ 	dot.setAttribute("src", "setting1.svg");
+ 	dot.setAttribute("class", "setting-icon");
+
 	let p2 = document.createElement("p");
 	let p3 = document.createElement("h3");
 	
 	p2.textContent = section_sect[i] + "-" + section_year[i] ;
 	p3.textContent = section_adviser[i];
 	p3.setAttribute("class" , "psect");
+	
 
 	const p22 = document.querySelector(".sect"+[i]);
 	const p33 = document.querySelector(".sect"+[i]);
+	const dott = document.querySelector(".sect"+[i]);
 	p22.appendChild(p2);	
 	p33.appendChild(p3);
+	dott.appendChild(dot);
 }

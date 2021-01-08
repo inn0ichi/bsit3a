@@ -168,10 +168,12 @@ h1 {
     padding-top: 40px;
 }
 
-.section_D:hover,
-.section_C:hover,
-.section_B:hover,
-.section_A:hover {
+.sect0:hover,
+.sect1:hover,
+.sect2:hover,
+.sect3:hover,
+.sect4:hover,
+.sect5:hover {
     font-size: 22px;
     background-color: gray;
 }
@@ -240,9 +242,11 @@ h1 {
 }
 
 .setting-icon {
+    position: absolute;
     height: 30px;
-    margin-left: 85%;
-    margin-top: -9%;
+    margin-left: 120px;
+    margin-top: -220px;
+   
 }
 
 .footer {
