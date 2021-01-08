@@ -166,16 +166,14 @@ h1 {
     padding-top: 40px;
 }
 
-.sect0:hover,
-.sect1:hover,
-.sect2:hover,
-.sect3:hover,
-.sect4:hover,
-.sect5:hover {
+
+.section_A:hover,
+.section_B:hover,
+.section_C:hover,
+.section_D:hover {
     font-size: 22px;
     background-color: gray;
 }
-
 
 /*cards*/
 
