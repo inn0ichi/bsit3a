@@ -45,4 +45,5 @@ function add() {
 
 
     document.getElementById('secondrow').appendChild(div);
+    modal.style.display = "none";
 }
