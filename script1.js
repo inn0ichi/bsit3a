@@ -42,13 +42,7 @@ function add() {
 	</div>
 	</div>
 	`;
-    document.getElementById('secondrow').appendChild(div);
-
-    //close//clear
-    modal.style.display = "none";
-    document.getElementById('year').value = '';
-    document.getElementById('sec').value = '';
-    document.getElementById('adv').value = '';
+  
 
 
     document.getElementById('secondrow').appendChild(div);
