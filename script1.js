@@ -46,4 +46,7 @@ function add() {
 
     document.getElementById('secondrow').appendChild(div);
     modal.style.display = "none";
+    document.getElementById('year').value = '';
+    document.getElementById('sec').value = '';
+    document.getElementById('adv').value = '';
 }
